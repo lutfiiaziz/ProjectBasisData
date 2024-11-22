@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.VBox?>
 
 
-<AnchorPane fx:id="mainpage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" />
+<VBox fx:id="mainLayer" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <CheckBox fx:id="ch1" layoutX="20.0" layoutY="10.0" mnemonicParsing="false" text="BrandName" VBox.vgrow="ALWAYS" />
+   </children>
+</VBox>

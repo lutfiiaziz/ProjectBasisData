@@ -4,4 +4,5 @@ module filtering_app {
 
     opens filtering_app to javafx.fxml;
     exports filtering_app;
+    requires java.sql;
 }

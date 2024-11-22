@@ -20,6 +20,18 @@
             <artifactId>javafx-fxml</artifactId>
             <version>13</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>11.2.3.jre17</version>
+        </dependency>
+    
+      <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.12.1</version>
+      </dependency>
     </dependencies>
     <build>
         <plugins>

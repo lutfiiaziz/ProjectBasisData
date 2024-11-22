@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.VBox?>
 
 
-<AnchorPane fx:id="mainpage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" />
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="filtering_app.PrimaryController" spacing="10" padding="10">
+    
+    <Label text="Select tables to display:" />
+    <VBox fx:id="checkBoxContainer" spacing="5" />
+    
+    <Button fx:id="showDataButton" text="Show Data" />
+    
+    <TableView fx:id="tableView" VBox.vgrow="ALWAYS" />
+</VBox>
